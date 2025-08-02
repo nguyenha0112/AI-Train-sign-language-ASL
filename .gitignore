@@ -1,0 +1,8 @@
+
+# Bỏ qua toàn bộ nội dung trong thư mục data/
+data/*
+!data/.gitkeep  # Giữ lại file giữ chỗ để thư mục data vẫn tồn tại
+
+# Bỏ qua các file cụ thể ở mọi nơi trong project
+data.pickle
+model.p
